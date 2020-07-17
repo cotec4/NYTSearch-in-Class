@@ -1,0 +1,18 @@
+.jumbotron-fluid {
+    background-color: blue;
+    text-align: center;
+    font-family: serif;
+    color: white;
+    padding: 22px 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#form-title {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px 5px;
+    border: 0.5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
