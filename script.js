@@ -1,15 +1,9 @@
-// API Key - HwqTp5SCNfIrHYSw4JfpCnoPD7A2FeqB
+var q = $()
+var queryURL = "https:api.nytimes.com/svc/search/v2/articlesearch.json?q=" + q +  "&api-key=HwqTp5SCNfIrHYSw4JfpCnoPD7A2FeqB"
 
-
-var queryURL = "https:api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=HwqTp5SCNfIrHYSw4JfpCnoPD7A2FeqB"
-
-
-$.ajax( {
+$.ajax({
     url: queryURL,
     method: "GET"
-}).then(function(response) {
+}).then(function(repsonse) {
     console.log(response);
-    var article1,
-        article2,
-        article3,
 })
